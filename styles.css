@@ -1,3 +1,10 @@
-.title {
+@font-face {
+  font-family: 'WebFontName';
+  src: url('webfont.woff2') format('woff2'),
+       url('webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
   font-family: Roboto + Mono;
 }
